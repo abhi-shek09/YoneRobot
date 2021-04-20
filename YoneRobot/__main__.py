@@ -74,17 +74,17 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow` [🤗](https://telegra.ph/file/7e61fe06a9c02747249c4.jpg) `My name is` *yone*
+`Hellow` [🤗](https://telegra.ph/file/7e61fe06a9c02747249c4.jpg) `My name is` *Rika*
 `I'm here to help you manage your groups! Hit` *📚Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Add Yone To Your Group ➕️", url="t.me/Yone_Robot?startgroup=true"),
+            text="➕️ Add Yone To Your Group ➕️", url="t.me/RikaRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="About", callback_data="yone_"),
+        InlineKeyboardButton(text="About", callback_data="Rika_"),
         InlineKeyboardButton(
             text="Support", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
@@ -96,11 +96,11 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [yone🙋‍♀️](https://telegra.ph/file/7e61fe06a9c02747249c4.jpg)
+`Hi.. I'm` [Rika🙋‍♀️](https://telegra.ph/file/7e61fe06a9c02747249c4.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
-yone_IMG = "https://telegra.ph/file/7e61fe06a9c02747249c4.jpg"
+Rika_IMG = "https://telegra.ph/file/7e61fe06a9c02747249c4.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @kittu5588 \
